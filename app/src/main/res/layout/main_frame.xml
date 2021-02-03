@@ -15,34 +15,28 @@
         android:layout_marginTop="58dp"
         android:layout_marginEnd="158dp"
         android:layout_marginRight="158dp"
-        android:layout_marginBottom="581dp"
         android:text="Bienvenido "
         android:textSize="32dp"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/usuario"
-        android:layout_width="118dp"
+        android:layout_width="107dp"
         android:layout_height="50dp"
         android:layout_marginStart="33dp"
         android:layout_marginLeft="33dp"
-        android:layout_marginTop="91dp"
+        android:layout_marginTop="56dp"
         android:layout_marginEnd="68dp"
         android:layout_marginRight="68dp"
-        android:layout_marginBottom="621dp"
         android:text="user"
         android:textSize="32dp"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.512"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toEndOf="@+id/mensaje_bienvenida"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="1.0" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/perfil"
@@ -57,24 +51,24 @@
         android:text="ver mi perfil"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/usuario"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintVertical_bias="1.0" />
 
     <TextView
         android:id="@+id/mensaje1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="55dp"
-        android:layout_marginLeft="55dp"
-        android:layout_marginTop="112dp"
-        android:layout_marginEnd="49dp"
-        android:layout_marginRight="49dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="252dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginRight="50dp"
         android:text="Hoy te has cruzado con: "
         android:textSize="28dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/perfil" />
 
@@ -87,14 +81,12 @@
         android:layout_marginTop="54dp"
         android:layout_marginEnd="220dp"
         android:layout_marginRight="220dp"
-        android:layout_marginBottom="300dp"
         android:text="123456"
         android:textSize="28dp"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/mensaje1"
-        app:layout_constraintVertical_bias="0.064" />
+        app:layout_constraintTop_toBottomOf="@+id/mensaje1" />
 
     <TextView
         android:id="@+id/mensaje2"
@@ -102,17 +94,45 @@
         android:layout_height="39dp"
         android:layout_marginStart="108dp"
         android:layout_marginLeft="108dp"
-        android:layout_marginTop="52dp"
+        android:layout_marginTop="60dp"
         android:layout_marginEnd="94dp"
         android:layout_marginRight="94dp"
-        android:layout_marginBottom="302dp"
         android:text="personas"
         android:textSize="26dp"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.775"
         app:layout_constraintStart_toEndOf="@+id/contador"
-        app:layout_constraintTop_toBottomOf="@+id/mensaje1"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintTop_toBottomOf="@+id/mensaje1" />
+
+    <TextView
+        android:id="@+id/Mensaje3"
+        android:layout_width="108dp"
+        android:layout_height="47dp"
+        android:layout_marginStart="56dp"
+        android:layout_marginLeft="56dp"
+        android:layout_marginTop="184dp"
+        android:layout_marginEnd="298dp"
+        android:layout_marginRight="298dp"
+        android:text="Estado"
+        android:textSize="26dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.019"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mensaje_bienvenida" />
+
+    <TextView
+        android:id="@+id/Estado"
+        android:layout_width="150dp"
+        android:layout_height="49dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="76dp"
+        android:layout_marginEnd="96dp"
+        android:layout_marginRight="96dp"
+        android:text="En Riesgo"
+        android:textSize="26dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/textView7"
+        app:layout_constraintTop_toBottomOf="@+id/perfil" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

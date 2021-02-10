@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "19886911696",
+    "project_id": "covid-unitec",
+    "storage_bucket": "covid-unitec.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:19886911696:android:be94ef156bb96dd2be2ed5",
+        "android_client_info": {
+          "package_name": "com.unitec.covidunitec"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "19886911696-16oavrm335boqkuoqovm1jqd28i09di7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBkMl1c_QqJoM4B-o3XYp1Q-IeS2SrTwCI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "19886911696-16oavrm335boqkuoqovm1jqd28i09di7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

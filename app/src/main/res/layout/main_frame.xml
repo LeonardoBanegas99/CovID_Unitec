@@ -7,13 +7,30 @@
     android:layout_height="match_parent">
 
     <TextView
+
+        android:id="@+id/user"
+        android:layout_width="133dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="19dp"
+        android:layout_marginLeft="19dp"
+        android:layout_marginTop="45dp"
+        android:layout_marginEnd="62dp"
+        android:layout_marginRight="62dp"
+        android:text="TextView"
+        android:textSize="28sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/mensaje_bienvenida"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
         android:id="@+id/mensaje_bienvenida"
         android:layout_width="159dp"
         android:layout_height="46dp"
-        android:layout_marginTop="52dp"
+        android:layout_marginTop="44dp"
         android:text="Bienvenido "
         android:textSize="32dp"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.15"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -66,6 +83,8 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.482"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent" >
+
+    </ListView>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

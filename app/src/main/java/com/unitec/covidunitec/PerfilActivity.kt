@@ -10,6 +10,7 @@ import android.os.Bundle
 import android.util.Log.d
 import android.widget.*
 import androidx.appcompat.app.AppCompatActivity
+import com.google.firebase.firestore.FirebaseFirestore
 import kotlinx.android.synthetic.main.main_frame.*
 import org.jetbrains.anko.toast
 import java.util.*
@@ -22,7 +23,7 @@ class PerfilActivity : AppCompatActivity() {
     var arrayList : ArrayList<String> = ArrayList()
     var arrayAdapter : ArrayAdapter<String>? = null
     var adapter : BluetoothAdapter = BluetoothAdapter.getDefaultAdapter()
-
+    private val db = FirebaseFirestore.getInstance()
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -32,6 +33,10 @@ class PerfilActivity : AppCompatActivity() {
         lista = findViewById(R.id.list_signals)
 
         btn_escaneo!!.setOnClickListener {
+            //db.collection("usuarios").document("wv89Sx5nNmLs2CqIPPWU").get().addOnSuccessListener {
+                //user.setText(it.get("num_cuenta") as String?)
+            user.setText("pp")
+            //}
             var bool = adapter.startDiscovery()
             toast("Click " + bool)
         };

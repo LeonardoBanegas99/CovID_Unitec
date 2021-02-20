@@ -20,7 +20,7 @@
         <EditText
             android:id="@+id/ET_usuarioLogin"
             android:layout_width="match_parent"
-            android:layout_height="32dp"
+            android:layout_height="61dp"
             android:layout_weight="1"
             android:hint=" Usuario"
             android:singleLine="true"
@@ -30,17 +30,18 @@
 
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/textInputLayout2"
-        android:layout_width="350dp"
-        android:layout_height="50dp"
-        android:layout_marginTop="32dp"
+        android:layout_width="377dp"
+        android:layout_height="68dp"
+        android:layout_marginTop="120dp"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.508"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textInputLayout">
 
         <EditText
             android:id="@+id/ET_contraLogin"
-            android:layout_width="match_parent"
-            android:layout_height="32dp"
+            android:layout_width="373dp"
+            android:layout_height="87dp"
             android:layout_weight="1"
             android:hint=" Contrasena"
             android:singleLine="true"

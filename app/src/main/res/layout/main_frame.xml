@@ -36,8 +36,8 @@
 
     <Button
         android:id="@+id/btn_estado"
-        android:layout_width="200dp"
-        android:layout_height="80dp"
+        android:layout_width="197dp"
+        android:layout_height="72dp"
         android:layout_marginStart="142dp"
         android:layout_marginLeft="142dp"
         android:layout_marginEnd="143dp"
@@ -46,17 +46,34 @@
         android:text="Sano"
         android:textSize="40dp"
         app:backgroundTint="#5ACF5F"
-        app:layout_constraintBottom_toTopOf="@+id/mensaje1"
+        app:layout_constraintBottom_toTopOf="@id/btn_infectado"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/Mensaje3"
-        app:layout_constraintVertical_bias="0.166" />
+        app:layout_constraintVertical_bias="0.569" />
+
+    <Button
+        android:id="@+id/btn_infectado"
+        android:layout_width="196dp"
+        android:layout_height="82dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginBottom="8dp"
+        android:text="Alertar"
+        android:textSize="24dp"
+        app:backgroundTint="#F44336"
+        app:layout_constraintBottom_toBottomOf="@id/btn_estado"
+        app:layout_constraintBottom_toTopOf="@id/mensaje1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.06"
+        app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
         android:id="@+id/mensaje1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="44dp"
+        android:layout_marginBottom="36dp"
         android:text="Hoy te has cruzado con: "
         android:textSize="28dp"
         app:layout_constraintBottom_toTopOf="@+id/list_signals"
@@ -76,14 +93,14 @@
 
     <ListView
         android:id="@+id/list_signals"
-        android:layout_width="382dp"
-        android:layout_height="346dp"
+        android:layout_width="386dp"
+        android:layout_height="239dp"
         android:layout_marginBottom="40dp"
         android:background="@drawable/background_lists"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.482"
-        app:layout_constraintStart_toStartOf="parent" >
+        app:layout_constraintStart_toStartOf="parent">
 
     </ListView>
 

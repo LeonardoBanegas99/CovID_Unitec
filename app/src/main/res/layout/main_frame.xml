@@ -46,7 +46,7 @@
         android:text="Sano"
         android:textSize="40dp"
         app:backgroundTint="#5ACF5F"
-        app:layout_constraintBottom_toTopOf="@id/btn_infectado"
+        app:layout_constraintBottom_toTopOf="@id/btn_alertar"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.492"
         app:layout_constraintStart_toStartOf="parent"
@@ -54,7 +54,7 @@
         app:layout_constraintVertical_bias="0.569" />
 
     <Button
-        android:id="@+id/btn_infectado"
+        android:id="@+id/btn_alertar"
         android:layout_width="196dp"
         android:layout_height="82dp"
         android:layout_marginStart="100dp"
